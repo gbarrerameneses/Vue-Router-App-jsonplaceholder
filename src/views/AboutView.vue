@@ -1,5 +1,22 @@
+import Titulo from '.';
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<div class="about">
+    <Titulo texto="Página de About"/>
+  </div>  
 </template>
+
+<script>
+import Titulo from '../components/Titulo'
+
+export default {
+  components: {
+    Titulo
+  }
+
+
+}
+</script>
+
+<style>
+
+</style>
